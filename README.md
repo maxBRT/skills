@@ -14,23 +14,23 @@ npx skills add maxBRT/skills --list
 npx skills add maxBRT/skills
 
 # Install a specific skill globally
-npx skills add maxBRT/skills --skill example-skill -g -y
+npx skills add maxBRT/skills --skill wrap-up -g -y
 
 # Install to a specific agent
-npx skills add maxBRT/skills --skill example-skill -a cursor -g -y
+npx skills add maxBRT/skills --skill wrap-up -a cursor -g -y
 ```
 
 ## Use without installing
 
 ```bash
-npx skills use maxBRT/skills@example-skill
+npx skills use maxBRT/skills@wrap-up
 ```
 
 ## Available skills
 
 | Skill | Description |
 | --- | --- |
-| `example-skill` | Starter template. Replace or delete once you add real skills. |
+| `wrap-up` | Ship a one-on-one session: branch, commit, push, open a PR against main. |
 
 ## Add a skill
 
@@ -65,7 +65,7 @@ npx skills add maxBRT/skills --skill my-skill -g -y
 
 ```
 skills/
-  example-skill/
+  wrap-up/
     SKILL.md
 ```
 
