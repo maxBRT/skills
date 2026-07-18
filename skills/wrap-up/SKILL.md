@@ -28,7 +28,7 @@ Run in parallel:
 
 If HEAD is **base** (or a detached HEAD), create and check out a new branch named for the change (`wrap/<short-slug>` is fine).
 
-If already on a feature branch that should hold this work, stay on it.
+If already on a feature branch extract the work that was done during this session to a new branch.
 
 **Done when:** HEAD is a non-**base** branch ready to receive the commit.
 
