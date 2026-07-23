@@ -30,6 +30,7 @@ npx skills use maxBRT/skills@wrap-up
 
 | Skill | Description |
 | --- | --- |
+| `to-epic` | Turn a conversation into an epic (full PRD) plus tracer-bullet sub-issues on the project tracker. |
 | `wrap-up` | Ship a one-on-one session: branch, commit, push, open a PR against main. |
 
 The CLI discovers `SKILL.md` files under `skills/` (and other standard agent skill paths). See [vercel-labs/skills](https://github.com/vercel-labs/skills) for full discovery rules.
